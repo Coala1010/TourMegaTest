@@ -32,3 +32,9 @@ Next, By using that token, I also got the data from /api/v2/cities
 
 The other apis are similar
 If you want to integrate other apis, it would be no problem for me :)
+
+------------------------------------------------------------------------------------
+
+I integrated JEST for unit test
+
+you can see the tours list according to mock area
