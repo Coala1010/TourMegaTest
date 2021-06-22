@@ -37,4 +37,25 @@ If you want to integrate other apis, it would be no problem for me :)
 
 I integrated JEST for unit test
 
-you can see the tours list according to mock area
+On the app, when call your tours api, it needs parameters
+Then, when you click the place on the location screen, it will get data like below
+
+    const viewport = {
+      southwest: {
+        lat: 37.0768407426,
+        lng: -122.7395329002,
+      },
+      northeast: {
+        lat: 37.599575657399996,
+        lng: -121.03312429980001,
+      },
+    };
+
+I sent parameters like below
+    
+    lat_bottom_right: viewport.southwest.lat,
+    lon_bottom_right: viewport.northeast.lng,
+    lat_top_left: viewport.northeast.lat,
+    lon_top_left: viewport.southwest.lng,
+
+If the retrieved data length is greater than 0, it means that API is working well
