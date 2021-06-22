@@ -1,4 +1,4 @@
-# SecondProject
+# TourMega Test Project
 
 ### This project includes GOOGLE API_KEY. Don't share it with others
 
